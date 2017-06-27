@@ -1,0 +1,1 @@
+### Basic image for developing Wordpress with Docker and Sage8/sage9

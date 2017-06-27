@@ -1,0 +1,5 @@
+.DS_Store
+db_data
+node_modules
+**/uploads/cache
+.idea

@@ -1,0 +1,28 @@
+@import "components/reset.scss";
+@import "components/edu-calc.scss";
+@import "components/edu-calc-small.scss";
+@import "components/fast-order.scss";
+@import "components/price-table.scss";
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+body {
+  background: black;
+}
