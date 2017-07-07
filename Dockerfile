@@ -42,12 +42,10 @@ RUN mkdir -p /etc/nginx/sites-enabled \
 
 ADD wp-content ${DOCUMENT_ROOT}/wp-content
 
+ADD ./robots.txt ${DOCUMENT_ROOT}/robots.txt
+
 ADD ./start.sh /start.sh
-ADD ./install_wp.sh /install_wp.sh
-ADD ./install_wp_from_dump.sh /install_wp_from_dump.sh
 RUN chmod 755 /start.sh
-RUN chmod 755 /install_wp.sh
-RUN chmod 755 /install_wp_from_dump.sh
 
 # Wordpress
 ENV BUILD_MODE "PROD"
